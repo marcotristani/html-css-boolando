@@ -75,6 +75,7 @@ img {
 .card {
   width: 32%;
   padding-bottom: 30px;
+  position: relative;
 }
 .card ul {
     line-height: 1em;
@@ -94,4 +95,11 @@ img {
 .contatti-social i {
     font-size: 1.5em;
 }
-
+.cuore {
+    font-size: 2em;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 5px;
+    background-color: white;
+}
