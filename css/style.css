@@ -6,15 +6,20 @@
 body {
   font-family: "Stack Sans Text", sans-serif;
 }
-
-/*Utility class*/
-.flex-white {
-  display: flex;
-  color: white;
+a {
+    text-decoration-line: none;
 }
 ul {
   list-style-type: none;
 }
+/*Utility class*/
+.flex {
+  display: flex;
+}
+.white {
+    color: white;
+}
+
 .bold {
   font-weight: bold;
 }
