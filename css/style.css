@@ -103,3 +103,15 @@ img {
     padding: 5px;
     background-color: white;
 }
+.sconto {
+    background-color: red;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
+.sconto p {
+    padding: 3px 5px;
+}
