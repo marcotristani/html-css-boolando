@@ -8,10 +8,12 @@ body {
 }
 
 /*Utility class*/
-ul {
+.flex-white {
     display: flex;
-    list-style-type: none;
     color: white;
+}
+ul {
+    list-style-type: none;
 }
 .bold {
     font-weight: bold;
