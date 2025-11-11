@@ -51,6 +51,7 @@ img {
   background-color: orangered;
   width: 100%;
   position: fixed;
+  z-index: 900;
 
 }
 .nav-bar {
@@ -111,7 +112,25 @@ img {
     position: absolute;
     bottom: 120px;
     left: 0;
+    display: flex;
 }
 .sconto p {
     padding: 3px 5px;
 }
+.sostenibilita {
+    background-color: green;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+}
+.card2 {
+    display: none;
+    width: 100%;
+}
+.card:hover .card2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
