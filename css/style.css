@@ -133,4 +133,6 @@ img {
     top: 0;
     left: 0;
 }
-
+.cuore:hover i {
+    color: red;
+}
