@@ -107,16 +107,17 @@ img {
     background-color: white;
 }
 .promo {
-    background-color: red;
-    color: white;
-    font-size: small;
-    font-weight: 700;
     position: absolute;
     bottom: 120px;
     left: 0;
     display: flex;
+    gap: 5px;
 }
 .promo .sconto {
+    background-color: red;
+    color: white;
+    font-size: small;
+    font-weight: 700;
     padding: 3px 5px;
 }
 .sostenibilita {
@@ -124,7 +125,7 @@ img {
     color: white;
     font-size: small;
     font-weight: 700;
-    padding-right: 5px;
+    padding:3px 5px;
 }
 .card2 {
     display: none;
