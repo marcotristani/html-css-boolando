@@ -19,7 +19,9 @@ ul {
 .white {
     color: white;
 }
-
+.red {
+  color: red;
+}
 .bold {
   font-weight: bold;
 }
@@ -135,4 +137,16 @@ img {
 }
 .cuore:hover i {
     color: red;
+}
+.immagini {
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+.immagini img {
+  max-width: 49%;
+}
+.wrapper h1:hover i {
+  color: red;
 }
